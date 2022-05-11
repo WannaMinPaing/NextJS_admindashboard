@@ -11,7 +11,7 @@ import { useTheme } from 'next-themes'
 
 
 
-const table = () => {
+const TableUser = () => {
   const { resolvedTheme } = useTheme();
     const rows = [
         {
@@ -103,4 +103,4 @@ const table = () => {
   )
 }
 
-export default table
+export default TableUser

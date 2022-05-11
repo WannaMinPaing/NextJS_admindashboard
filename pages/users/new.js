@@ -15,7 +15,7 @@ export const getStaticProps = async () =>{
   }
 } 
 
- const newUser = ({inputs}) => { 
+ const NewUser = ({inputs}) => { 
    const [file,setFile] = useState('');
    console.log("fileInput",file)
 
@@ -59,4 +59,4 @@ export const getStaticProps = async () =>{
   )
 }
 
-export default newUser
+export default NewUser

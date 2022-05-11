@@ -8,7 +8,8 @@ import PersonAddAltRoundedIcon from '@mui/icons-material/PersonAddAltRounded';
 import { useTheme } from 'next-themes'
 import { useState } from 'react';
 
-const datatable = () => {
+const DatatableUser = () => {
+  
   const { resolvedTheme } = useTheme();
   const [data,setData] = useState(userRows)
   const handleDelete = (id)=>{
@@ -47,4 +48,4 @@ const datatable = () => {
   )
 }
 
-export default datatable
+export default DatatableUser
